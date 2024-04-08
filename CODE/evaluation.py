@@ -1,6 +1,6 @@
 import numpy as np
 
-max_num_test = 100
+max_num_test = 200
 
 def rmse(values_1, values_2):
   return np.sqrt(np.square(values_1 - values_2).mean())
